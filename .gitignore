@@ -1,0 +1,7 @@
+bead
+*.o
+*.tif
+*.png
+*.bak
+tmp/
+*.swp

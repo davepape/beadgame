@@ -1,0 +1,14 @@
+#version 330 core
+
+in vec2 vpos;
+in vec2 texcoord;
+uniform vec2 pos;
+out vec2 texcoord_o;
+
+void main()
+    {
+    float x = (vpos.x+pos.x) / 1024.0;
+    float y = (vpos.y+pos.y) / 768.0;
+    gl_Position = vec4(x*2.0-1.0, y*2.0-1.0, 0.0, 1.0);
+    texcoord_o = texcoord;
+    }
