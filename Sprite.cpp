@@ -91,4 +91,3 @@ void Sprite::draw(void)
 	glBindVertexArray(vertexArray_);   
 	glDrawArrays(GL_TRIANGLE_STRIP, 0, 4);
     }
-

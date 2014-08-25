@@ -13,4 +13,3 @@ clean:
 BEADOBJS = main.o Texture2D.o Sprite.o Rope.o Spring2.o Vector2.o
 bead: $(BEADOBJS)
 	c++ $(LFLAGS) -o bead $(BEADOBJS) $(LIBS)
-
