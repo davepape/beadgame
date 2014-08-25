@@ -6,5 +6,5 @@ in vec2 texcoord_o;
 
 void main()
     {
-	color = texture2D(uTexture, texcoord_o);
+    color = texture2D(uTexture, texcoord_o);
     }
